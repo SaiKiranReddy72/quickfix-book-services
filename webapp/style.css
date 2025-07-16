@@ -1,0 +1,220 @@
+/* Full background image */
+body.bg-image {
+  background-image: url('repair-bg.jpg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Left vertical nav bar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 180px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding-top: 60px;
+}
+
+.sidebar a {
+  display: block;
+  color: #fff;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background-color: #575757;
+}
+
+/* Top-right navigation */
+.topnav {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.topnav a {
+  margin-left: 15px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #007BFF;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+.topnav a:hover {
+  background-color: #0056b3;
+}
+
+/* Center content box */
+.main-content {
+  margin-left: 220px;
+  margin-top: 150px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  color: black;
+  font-weight: bold;
+  width: fit-content;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+/* Book button */
+.book-btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.book-btn:hover {
+  background-color: #218838;
+}
+
+/* Centered text without white background */
+.center-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Keep book button below heading */
+.center-text .book-btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.center-text .book-btn:hover {
+  background-color: #218838;
+}
+
+/* Updated text section - positioned below top */
+.main-message {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+/* Button style */
+.book-btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.book-btn:hover {
+  background-color: #218838;
+}
+
+/* Fix sidebar text color so it's visible */
+.sidebar a {
+  display: block;
+  color: black; /* Changed from white */
+  padding: 12px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.7); /* Light background for contrast */
+  margin-bottom: 2px;
+  border-radius: 4px;
+}
+
+.sidebar a:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Login/Register buttons */
+/* Top-right buttons (Login & Register) - Green */
+.topnav a {
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #28a745; /* Green background */
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+.topnav a:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+.form-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  font-weight: bold;
+  color: black;
+}
+
+.form-wrapper h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+
+.form-wrapper label {
+  display: block;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.form-wrapper input,
+.form-wrapper select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-wrapper button {
+  width: 100%;
+  margin-top: 25px;
+  padding: 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-wrapper button:hover {
+  background-color: #218838;
+}

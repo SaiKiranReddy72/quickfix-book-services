@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>QuickFix - Book a Service</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2>Book a Service</h2>
+
+  <form id="bookingForm">
+    <label for="serviceType">Choose a Service:</label>
+    <select id="serviceType" name="serviceType" required>
+      <option value="">--Select--</option>
+      <option value="Electrician">Electrician</option>
+      <option value="Plumber">Plumber</option>
+      <option value="Car Service">Car Service</option>
+      <option value="Home Interior Work">Home Interior Work</option>
+      <option value="House Cleaning">House Cleaning</option>
+      <option value="Tailor">Tailor</option>
+      <option value="Fashion Designer">Fashion Designer</option>
+    </select>
+
+    <br><br>
+    <label for="location">Your Location:</label>
+    <input type="text" id="location" name="location" required>
+
+    <br><br>
+    <label for="date">Preferred Date:</label>
+    <input type="date" id="date" name="date" required>
+
+    <br><br>
+    <label for="time">Preferred Time:</label>
+    <input type="time" id="time" name="time" required>
+
+    <br><br>
+    <button type="submit">Book Now</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
